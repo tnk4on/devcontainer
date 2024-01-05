@@ -21,14 +21,14 @@
 	// "remoteUser": "root"
 	"runArgs": [
 	//	"--userns=keep-id"
-		"--user 0"
+	//	"--user 0"
 	],
-	//"containerEnv": {
-	//	"HOME": "/home/vscode"
-	//},
-	//"remoteEnv": {
-	//	"HOME": "/home/vscode"
-	//},
+	"containerEnv": {
+		"HOME": "/home/vscode"
+	},
+	"remoteEnv": {
+		"HOME": "/home/vscode"
+	},
 	"containerUser": "vscode",
-	//"remoteUser": "vscode"
+	"remoteUser": "vscode"
 }
