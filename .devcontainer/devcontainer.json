@@ -20,7 +20,8 @@
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 	"runArgs": [
-		"--userns=keep-id"
+	//	"--userns=keep-id"
+		"--user 0"
 	],
 	//"containerEnv": {
 	//	"HOME": "/home/vscode"
